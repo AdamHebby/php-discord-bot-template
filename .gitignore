@@ -1,0 +1,10 @@
+.env*
+!.env.example
+deploy
+rsync-ignore.txt
+vendor
+data/*
+!data/.gitkeep
+lock
+.phpunit.cache
+build/*
